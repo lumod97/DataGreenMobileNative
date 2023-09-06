@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_principal"
+    android:keepScreenOn="true"
+    tools:context=".cls_08020000_AgregarDni"> <!-- CAMBIAR EL CONTEXTO PARA ACTIVIDAD DIFERENTE-->
+
+    <LinearLayout
+        android:id="@+id/c025_lly_StatusSuperior_v"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/c025_lly_Cuerpo_v"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/c025_textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/vmr"
+            android:text="[" />
+
+        <TextView
+            android:id="@+id/c025_txv_PushTituloVentana_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/vmr"
+            android:onClick="onClick"
+            android:text="\\ServicioTranspotes\\AgregarDni" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/c025_txv_PushRed_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/vmr"
+            android:onClick="onClick"
+            android:text="OFFLINE" />
+
+        <TextView
+            android:id="@+id/c025_textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/vmr"
+            android:text="]" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/c025_lly_Cuerpo_v"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/c025_lly_StatusInferior_v"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c025_lly_StatusSuperior_v">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_r_blanco"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/c025_txv_Contador_v"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/auxiliar_02"
+                android:text="0/21"
+                android:textAlignment="center"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/c025_txv_DniMarcado_v"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/auxiliar_02"
+                android:text="00000000"
+                android:textAlignment="center"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/c025_txv_NombreMarcado_v"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/auxiliar_02"
+                android:text="Nombre Trabajador"
+                android:textAlignment="center"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/c025_txv_ApellidoMarcado_v"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/auxiliar_02"
+                android:text="Apellido Trabajador"
+                android:textAlignment="center"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/c025_lly_IngresoDni_v"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_r_blanco"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/c025_txv_IngresoDni_v"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/auxiliar_02"
+                android:text="00000000"
+                android:textAlignment="center"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/c025_btn_1_v"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/grisAux"
+                    android:fontFamily="@font/auxiliar_02"
+                    android:onClick="onClick"
+                    android:text="1"
+                    android:textColor="@color/blanco"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/c025_btn_2_v"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/grisAux"
+                    android:fontFamily="@font/auxiliar_02"
+                    android:onClick="onClick"
+                    android:text="2"
+                    android:textColor="@color/blanco"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/c025_btn_3_v"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/grisAux"
+                    android:fontFamily="@font/auxiliar_02"
+                    android:onClick="onClick"
+                    android:text="3"
+                    android:textColor="@color/blanco"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/c025_btn_4_v"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/grisAux"
+                    android:fontFamily="@font/auxiliar_02"
+                    android:onClick="onClick"
+                    android:text="4"
+                    android:textColor="@color/blanco"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/c025_btn_5_v"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/grisAux"
+                    android:fontFamily="@font/auxiliar_02"
+                    android:onClick="onClick"
+                    android:text="5"
+                    android:textColor="@color/blanco"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/c025_btn_6_v"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/grisAux"
+                    android:fontFamily="@font/auxiliar_02"
+                    android:onClick="onClick"
+                    android:text="6"
+                    android:textColor="@color/blanco"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/c025_btn_7_v"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/grisAux"
+                    android:fontFamily="@font/auxiliar_02"
+                    android:onClick="onClick"
+                    android:text="7"
+                    android:textColor="@color/blanco"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/c025_btn_8_v"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/grisAux"
+                    android:fontFamily="@font/auxiliar_02"
+                    android:onClick="onClick"
+                    android:text="8"
+                    android:textColor="@color/blanco"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/c025_btn_9_v"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/grisAux"
+                    android:fontFamily="@font/auxiliar_02"
+                    android:onClick="onClick"
+                    android:text="9"
+                    android:textColor="@color/blanco"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/c025_btn_X_v"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/alerta"
+                    android:fontFamily="@font/auxiliar_02"
+                    android:onClick="onClick"
+                    android:text="X"
+                    android:textColor="@color/blanco"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/c025_btn_0_v"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/grisAux"
+                    android:fontFamily="@font/auxiliar_02"
+                    android:onClick="onClick"
+                    android:text="0"
+                    android:textColor="@color/blanco"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/c025_btn_Ok_v"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/verde"
+                    android:fontFamily="@font/auxiliar_02"
+                    android:onClick="onClick"
+                    android:text="Ok"
+                    android:textColor="@color/blanco"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/c025_lly_Controles_v"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/c025_fab_Volver_v"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="onClick"
+                app:backgroundTint="@color/azulOscuro"
+                app:srcCompat="@drawable/i_keyboard_backspace" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/c025_lly_StatusInferior_v"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c025_lly_Cuerpo_v">
+
+        <TextView
+            android:id="@+id/c025_textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/vmr"
+            android:text="[" />
+
+        <TextView
+            android:id="@+id/c025_txv_NombreApp_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/vmr"
+            android:text="Nombre App" />
+
+        <TextView
+            android:id="@+id/c025_txv_PushVersionApp_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/vmr"
+            android:onClick="onClick"
+            android:text=" v 0.0" />
+
+        <TextView
+            android:id="@+id/c025_textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/vmr"
+            android:text=" | DB" />
+
+        <TextView
+            android:id="@+id/c025_txv_PushVersionDataBase_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/vmr"
+            android:onClick="onClick"
+            android:text=" v 0.0" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/c025_txv_PushIdentificador_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/vmr"
+            android:onClick="onClick"
+            android:text="000-USUARIO" />
+
+        <TextView
+            android:id="@+id/c025_textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/vmr"
+            android:text="]" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

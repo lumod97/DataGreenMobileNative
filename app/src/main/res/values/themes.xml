@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DataGreenMovil" parent="Theme.AppCompat.Light">
+        <!-- Primary brand color. -->
+        <!--<item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="android:windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>-->
+        <item name="android:textColorSecondary">@color/azulOscuro</item>
+        <item name="android:textColor">@color/gris</item>
+
+<!--        <item name="radioButtonStyle">@style/radioButton</item>-->
+
+        <!-- MI CONFIGURACION PERSONAL-->
+        <item name="colorPrimary">@color/verde</item>
+        <item name="colorPrimaryDark">@color/verdeOscuro</item>
+        <item name="colorAccent">@color/gris</item>
+
+        <!-- Status bar color. -->
+        <!--<item name="android:statusBarColor" tools:targetApi="l">@color/verdeClaro</item>-->
+        <item name="android:statusBarColor">@color/verdeClaro</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- ocultar action bar-->
+       <item name="android:windowActionBar">false</item>
+       <item name="windowNoTitle">true</item>
+
+        <!--<item name="buttonStyle">@style/Boton</item>-->
+        <item name="floatingActionButtonStyle">@style/fab_Boton</item>
+
+<!--        <item name="buttonStyle">@style/Boton</item>-->
+    </style>
+</resources>

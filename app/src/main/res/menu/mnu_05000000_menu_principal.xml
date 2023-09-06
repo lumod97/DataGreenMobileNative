@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/opc_05000000_transferir"
+        android:title="Transferir" />
+    <item android:id="@+id/opc_05000000_extornar"
+        android:title="Extornar" />
+    <item android:id="@+id/opc_05000000_eliminar"
+        android:title="Eliminar" />
+    <item android:id="@+id/opc_05000000_reporte"
+        android:title="Reporte" />
+</menu>

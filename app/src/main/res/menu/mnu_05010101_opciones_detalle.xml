@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/opc_05010101_ActualizarDetalle_v"
+        android:title="Actualizar Detalle" />
+    <item
+        android:id="@+id/opc_05010101_EliminarDetalle_v"
+        android:title="Eliminar Detalle" />
+</menu>

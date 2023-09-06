@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/opc_00000001_cambiar_clave_usuario_v"
+        android:title="Cambiar clave de usuario" />
+    <item
+        android:id="@+id/opc_00000001_cerrar_sesion_v"
+        android:title="Cerrar sesion" />
+</menu>

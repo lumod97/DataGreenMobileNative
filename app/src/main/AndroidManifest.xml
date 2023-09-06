@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.datagreenmovil">
+
+    <uses-permission
+        android:name="android.permission.LOCAL_MAC_ADDRESS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DataGreenMovil">
+        <activity
+            android:name=".cls_08020000_AgregarDni"
+            android:exported="false" />
+        <activity
+            android:name=".cls_08010000_Edicion"
+            android:exported="false" />
+        <activity
+            android:name=".cls_08000000_ServiciosTransporte"
+            android:exported="false" />
+        <activity
+            android:name=".cls_07000100_Item_RecyclerView"
+            android:exported="false" />
+        <activity
+            android:name=".cls_07000000_Estandares"
+            android:exported="false" />
+        <activity
+            android:name=".cls_00000000_Plantilla_Base"
+            android:exported="false" />
+        <activity
+            android:name=".cls_06000100_ItemRecyclerView"
+            android:exported="true" />
+        <activity
+            android:name=".cls_06010000_NuevoPallet"
+            android:exported="true" />
+        <activity
+            android:name=".cls_05020000_Reportes"
+            android:exported="false" />
+        <activity
+            android:name=".cls_06000000_Eficiencias"
+            android:exported="false" />
+        <activity
+            android:name=".cls_05000000_Tareos"
+            android:exported="false" />
+        <activity
+            android:name=".cls_02000000_Configuracion"
+            android:exported="false" />
+        <activity
+            android:name=".cls_03000000_Login"
+            android:exported="false" />
+        <activity
+            android:name=".cls_05010000_Edicion"
+            android:exported="false"
+            android:parentActivityName=".cls_04000000_Modulos" />
+        <activity
+            android:name=".cls_04000000_Modulos"
+            android:exported="false"
+            android:parentActivityName=".cls_04000000_Modulos" />
+        <activity
+            android:name=".cls_01000000_Commutador"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

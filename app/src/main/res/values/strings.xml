@@ -1,0 +1,31 @@
+<!--
+LISTVIEW DINAMICO SIMPLE: https://www.youtube.com/watch?v=fZxeMXXOKU0 USADO COMO BASE PARA EL DETALE DE TAREOS
+LISTVIEW ADAPTER: https://www.youtube.com/watch?v=E6vE8fqQPTE USADO PARA EL DETALLE DE LOS TAREOS
+SQLITE: https://www.youtube.com/watch?v=iWQIXjQ8ucA USADO PARA LA CONEXION SQLITE
+SQLITE: https://www.youtube.com/watch?v=KtWgbmEe_x4 MEJOR UE EL VIDEO ANTERIOR
+PASAR OBJETOS ENTRE ACTIVIDADES: https://gaandlaneeraja.medium.com/how-to-pass-objects-between-android-activities-86f2cfb61bd4
+USAR LOCALDATETIME.NOW(): https://stackoverflow.com/questions/56695997/how-to-fix-call-requires-api-level-26-current-min-is-25-error-in-android/56696502
+ACCESO A BASE DE DATOS SQL: https://www.youtube.com/watch?v=OOm03ezazAI (NO OLVIDAR AGREGAR LA LIBRERIA JTDS COMO DEPENDECIA - VER VIDEO 1)
+
+
+-->
+
+<resources>
+    <string name="app_name">DataGreen Movil</string>
+    <string name="version">1.0</string>
+    <string name="btn_login">Ingresar</string>
+    <string name="txt_usuario">Usuario:</string>
+    <string name="txt_password">Contraseña:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--
+    <string-array name="ModulosDisponibles">
+        <item>Tareos</item>
+        <item>Evaluaciones</item>
+        <item>Aplicaciones</item>
+        <item>Transportes</item>
+    </string-array>
+-->
+
+
+</resources>

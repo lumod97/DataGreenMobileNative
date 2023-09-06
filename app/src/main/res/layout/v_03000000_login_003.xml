@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_principal"
+    tools:context=".cls_03000000_Login">
+
+    <LinearLayout
+        android:id="@+id/c003_lly_StatusSuperior_v"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/c003_lly_Cuerpo_v"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/c003_textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/vmr"
+            android:text="[" />
+
+        <TextView
+            android:id="@+id/c003_txv_PushTituloVentana_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/vmr"
+            android:onClick="onClick"
+            android:text="\\Login" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/c003_txv_PushRed_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/vmr"
+            android:onClick="onClick"
+            android:text="OFFLINE" />
+
+        <TextView
+            android:id="@+id/c003_textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/vmr"
+            android:text="]" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/c003_lly_Cuerpo_v"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/c003_lly_StatusInferior_v"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c003_lly_StatusSuperior_v">
+
+        <ImageView
+            android:layout_width="40mm"
+            android:layout_height="40mm"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/siembra"
+            tools:srcCompat="@drawable/siembra" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.design.widget.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:contentDescription="Configuracion"
+                    android:elevation="0dp"
+                    android:onClick="abrirMenuConfiguracion"
+                    app:srcCompat="@drawable/i_settings" />
+
+                <Spinner
+                    android:id="@+id/c003_spi_Empresa_v"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_r_blanco"
+                    android:foregroundGravity="center"
+                    android:gravity="center"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <EditText
+                android:id="@+id/c003_etx_Usuario_v"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_r_blanco"
+                android:ems="10"
+                android:fontFamily="@font/monoespaciada_principal"
+                android:gravity="center"
+                android:hint="@string/txt_usuario"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:textAllCaps="true"
+                android:textSize="24sp"
+                tools:ignore="TextContrastCheck" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <EditText
+                android:id="@+id/c003_etx_Password_v"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_r_blanco"
+                android:ems="10"
+                android:fontFamily="@font/monoespaciada_principal"
+                android:gravity="center"
+                android:hint="@string/txt_password"
+                android:importantForAutofill="no"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:textSize="24sp"
+                tools:ignore="TextContrastCheck" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/c003_btn_Login_v"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/verde"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/monoespaciada_principal"
+                android:foregroundGravity="center_vertical"
+                android:onClick="onClick"
+                android:text="@string/btn_login"
+                android:textColor="@color/blanco"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"></LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/c003_lly_StatusInferior_v"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c003_lly_Cuerpo_v">
+
+        <TextView
+            android:id="@+id/c003_textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/vmr"
+            android:text="[" />
+
+        <TextView
+            android:id="@+id/c003_txv_NombreApp_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/vmr"
+            android:text="Nombre App" />
+
+        <TextView
+            android:id="@+id/c003_txv_PushVersionApp_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/vmr"
+            android:onClick="onClick"
+            android:text=" v 0.0" />
+
+        <TextView
+            android:id="@+id/c003_textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/vmr"
+            android:text=" | DB" />
+
+        <TextView
+            android:id="@+id/c003_txv_PushVersionDataBase_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/vmr"
+            android:onClick="onClick"
+            android:text=" v 0.0" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/c003_txv_PushIdentificador_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/vmr"
+            android:onClick="onClick"
+            android:text="000-USUARIO" />
+
+        <TextView
+            android:id="@+id/c003_textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/vmr"
+            android:text="]" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2175925925925926" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/background_general.xml" value="0.2115" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/barras_horizontales.xml" value="0.2115" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/fondo_boton.xml" value="0.2175925925925926" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/fondo_degradado.xml" value="0.2115" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/fondo_delineado_1.xml" value="0.20833333333333334" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/fondo_delineado_2.xml" value="0.20833333333333334" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/fondo_delineado_3.xml" value="0.20833333333333334" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/fondo_delineado_4.xml" value="0.2115" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/fondo_item_generico.xml" value="0.37083333333333335" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/fondo_item_modulo.xml" value="0.2537037037037037" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/fondo_solido_1.xml" value="0.20833333333333334" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.2175925925925926" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2175925925925926" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/ico_atras.xml" value="0.2115" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/ico_check_list.xml" value="0.2115" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/ico_disket.xml" value="0.2115" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/ico_mas.xml" value="0.2115" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/obs.xml" value="0.2115" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/observaciones.xml" value="0.2115" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/rectangulo_delineado.xml" value="0.20833333333333334" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/rectangulo_derondeado_delineado.xml" value="0.2115" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/rectangulo_ovalado_transparente.xml" value="0.2175925925925926" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/rectangulo_ovalado_transparente_azul.xml" value="0.2115" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/rectangulo_ovalado_transparente_con_punto.xml" value="0.2115" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/rectangulo_ovalado_transparente_triangulo.xml" value="0.2115" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/rectangulo_ovalado_transparente_verde.xml" value="0.2115" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/rectangulo_redondeado_blanco.xml" value="0.2175925925925926" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/rectangulo_redondeado_degradado.xml" value="0.2175925925925926" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/drawable/textview_spinner.xml" value="0.2115" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/activity_configuracion.xml" value="0.33" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/activity_configuraciones.xml" value="0.33" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/activity_conmutador_actividades.xml" value="0.18" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/activity_eficiencias_menuprincipal.xml" value="0.3546875" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/activity_main.xml" value="0.246875" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/activity_main_tareos.xml" value="0.3546875" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/activity_menu_modulos.xml" value="0.43884892086330934" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/activity_registro.xml" value="0.22" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/activity_tareos.xml" value="0.33" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/activity_tareos_reportes.xml" value="0.25" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/adapterview_layout_tareos.xml" value="0.5" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/dgm_001_Conmutador.xml" value="0.1921875" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/dgm_005_item_list__009.xml" value="0.1921875" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/dgm_005_tareos.xml" value="0.1921875" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/dgm_005_tareos_02_edicion__007.xml" value="0.1921875" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/dgm_005_tareos_03_reporte_1__011.xml" value="0.1921875" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/dgm_05_01_tareos_005.xml" value="0.1921875" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/dgm_conmutador__001.xml" value="0.1921875" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/dgm_login__003.xml" value="0.1921875" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/dgm_tareos_reportes_008.xml" value="0.1921875" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/item_modulos.xml" value="0.2609375" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/item_tareos_listar.xml" value="0.3546875" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/item_tareos_reportes_reporte1.xml" value="0.3546875" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/item_tareos_reportes_reporte2.xml" value="0.3546875" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/item_tareos_reportes_reporte3.xml" value="0.3546875" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/prueba_tareo.xml" value="0.25" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/switch_item.xml" value="0.15648148148148147" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/v_01000000_conmutador_001.xml" value="0.1921875" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/v_02000000_configuracion_002.xml" value="0.33" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/v_03000000_login_003.xml" value="0.33" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/v_04000000_modulos_004.xml" value="0.33" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/v_04010000_item_listview_014.xml" value="0.5" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/v_05000000_tareos_005.xml" value="0.33" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/v_05000100_item_recyclerview_009.xml" value="0.5" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/v_05010000_edicion_007.xml" value="0.33" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/v_05010100_item_recyclerview_010.xml" value="0.5" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/v_05020000_reportes_008.xml" value="0.1921875" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/v_05020100_resumen1_011.xml" value="0.33" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/v_05020200_resumen2_012.xml" value="0.33" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/v_05020300_resumen3_013.xml" value="0.33" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/v_06000000_eficiencias_006.xml" value="0.33" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/v_06000100_item_recycler_view_016.xml" value="0.5" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/v_06010000_nuevopallet_014.xml" value="0.33" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/layout/v_06010000_nuevopallet_015.xml" value="0.33" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/menu/mnu_00000001_menu_usuario.xml" value="0.1921875" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/menu/mnu_05000000_menu_principal.xml" value="0.1921875" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/menu/mnu_05010101_eliminar_detalle.xml" value="0.5" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/menu/mnu_tareos_menugeneral.xml" value="0.3546875" />
+        <entry key="..\:/Proyectos/Movil/DataGreenMovil/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.37083333333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
